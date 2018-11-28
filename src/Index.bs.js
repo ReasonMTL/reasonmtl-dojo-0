@@ -3,8 +3,13 @@
 
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
-var HelloColor$ReactTemplate = require("./HelloColor.bs.js");
+var Grid$ReactTemplate = require("./Grid.bs.js");
 
-ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, HelloColor$ReactTemplate.make("pink", "foo", /* array */[])), "hello-color");
+ReactDOMRe.renderToElementWithId(ReasonReact.element(undefined, undefined, Grid$ReactTemplate.make(/* array */[
+              "blue",
+              "blue",
+              "red",
+              "green"
+            ], /* array */[])), "hello-color");
 
 /*  Not a pure module */

@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId(<HelloColor initialColor="pink" derp="foo"/>, "hello-color");
+ReactDOMRe.renderToElementWithId(<Grid colors=[| "blue", "blue", "red", "green" |] />, "hello-color");

@@ -24,7 +24,7 @@ let switchColor = (color) =>
   | _ => "red"
   }
 
-let make = (~initialColor: string, ~derp: string, _children) => {
+let make = (~initialColor: string, _children) => {
   ...squareComponent,
   initialState: () => {color: initialColor},
   didMount: (self) => 

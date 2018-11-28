@@ -29,7 +29,7 @@ function switchColor(color) {
   }
 }
 
-function make(initialColor, derp, _children) {
+function make(initialColor, _children) {
   return /* record */[
           /* debugName */squareComponent[/* debugName */0],
           /* reactClassInternal */squareComponent[/* reactClassInternal */1],
